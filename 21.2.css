@@ -1,0 +1,62 @@
+/* naver section start */
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+#naverSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: #900C3F;
+   color: white;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+}
+li{
+    list-style: none;
+    
+}
+
+
+/* naver section end */
+
+/* banner section start */
+
+#bannerSection{
+    background-image: url(young-pretty-woman-warm-coat-by-house_1303-20090.jpg);
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+#bannerSection h1{
+    font-size: 37px;
+    left: 20px;
+    top: 40%;
+    align-items: center;
+    position: absolute;
+    background-color: #cab3b9;
+    box-shadow:0 0 20px 0 rgba(255, 235, 205, 0.377);
+     transform: rotate(270deg);
+}
+
+/* banner section end  */
+/* About saction start  */
+#AboutSection{
+   display: flex;
+
+}
+#aboutMainDiv
+#aboutTextDiv h1{
+
+}
+#aboutTextDiv p{
+    font-size: 20px;
+
+}
+
+/* About saction end */

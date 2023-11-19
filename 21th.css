@@ -1,0 +1,181 @@
+body{
+padding:0% ;
+margin: 0%;
+box-sizing: border-box;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#naverSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #040D12;
+    color: white;
+    padding: 20px;
+}
+ul{
+    display: flex;
+   gap: 50px;
+}
+li{
+    list-style: none;
+}
+
+
+
+#bannerSection{
+    background-image: url(./ami.avif);
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+#bannerSection h1{
+    font-size: 37px;
+     position: absolute;
+     
+     top: 40%;
+     background-color: rgba(250, 235, 215, 0.274);
+    transform: rotate(270deg); 
+    box-shadow: 0 0 20px 0 gray;
+}
+/* about us  start */
+
+#aboutSection{
+    padding: 20px 20px;
+}
+#aboutSection>h1{
+ font-size: 54px;
+ color: #267575;
+}
+#aboutMainDiv{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap:100px;
+
+
+}
+
+#aboutTextDiv>h1{
+     font-size: 44px;
+}
+#aboutTextDiv>p{
+    text-align: justify;
+    font-size: 24px;
+    line-height: 32px;
+    
+}
+#aboutTextDiv>button{
+padding: 10px 30px;
+font-size:16px ;
+background-color:#5C8374 ;
+color: white;
+border: none;
+border-radius: 5px;
+box-shadow:0 0 20px 0 gray;
+}
+#aboutTextDiv>button:hover{
+    background-color: #183128;
+    transition: 1s;
+}
+
+#aboutImgDiv>img{
+    font-size: 44px;
+    height: 500px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    box-shadow:0 0 20px 0 gray;
+
+    }
+
+
+/* about us end */
+
+/* shop section start */
+#shopSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; 
+    gap: 50px;
+
+}
+.shopSectionCard{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 15px;
+    border:2px solid #0f553a;
+    box-shadow:0 0 30px 10px #394b44;
+    
+}
+.shopSectionCard:hover{
+    transition: .4s ease-in-out;
+    transform: scale(1.1);
+    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   background-color: aliceblue;
+}
+.cardImgDiv>img{
+   width:350px;
+  }
+  .cardTextDiv{
+    padding: 15px;
+
+  }
+.cardTextDiv h3{
+    color: rgb(128, 15, 15);
+    font-size: 28px;
+ 
+}
+
+.cardTextDiv>button{
+    padding: 10px 30px;
+    font-size:16px ;
+    background-color:#5C8374 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow:0 0 20px 0 gray;
+    }
+    .cardTextDiv>button:hover{
+        background-color: #183128;
+        transition: 1s;
+    }
+    
+    
+    
+
+/* shop section end */
+/* review section start */
+
+#ReviewSection{
+   padding: 20px;
+}
+#ReviewSection>h{
+
+
+}
+.ReviewSectionMainDiv{
+     display: flex;
+     gap: 50px;
+
+}
+.ReviewSectionCard{
+    color: white;
+    background-color: #547080;
+    text-align: center; padding: 30px 10px;
+}
+.ReviewSectionCard>img{
+border-radius: 50%;
+height: 150px;
+}
+.ReviewSectionCard>h2{
+    color: #172b23;
+}
+.starDiv img{
+color: gold;
+}
+
+/* review section end */
